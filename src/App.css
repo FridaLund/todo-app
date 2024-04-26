@@ -1,0 +1,92 @@
+body {
+  font-family:monospace;
+  padding: 0;
+  background-color:beige;
+  color:rgb(0, 3, 69);
+}
+
+a {
+  text-decoration: none;
+  padding: 20px;
+  font-size: x-large;
+  color:rgb(0, 3, 69);
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+p {
+  font-size: large;
+  line-height: 2;
+  max-width: 700px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+input {
+  width: 250px;
+  font-family: monospace;
+}
+
+button {
+  font-family: monospace;
+  padding: 5px 10px;
+  background-color: rgba(242, 97, 53, 0.852);
+  border-radius: 5px;
+}
+
+button:hover {
+  font-family: monospace;
+  padding: 5px 10px;
+  background-color: rgba(171, 79, 48, 0.861);
+  border-radius: 5px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  background-color: rgb(205, 205, 184);
+  padding-left: 25px;
+  padding-right: 25px;
+  width: 400px;
+}
+
+.addToList {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.taskList {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li span {
+  margin-bottom: 5px;
+  font-size: larger;
+}
+
+li button {
+  margin-left: 5px; 
+  margin-bottom: 5px;
+}
