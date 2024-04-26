@@ -6,7 +6,7 @@ const Home = () => {
         <div>
           <p>Do you have any tasks you need to do today? 
         <br /> 
-          Go and add them in ToDoList!</p> 
+          Go and add them in TO-DO!</p>
         </div>
         </div>
       </header>
